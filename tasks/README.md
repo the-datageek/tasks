@@ -1,8 +1,50 @@
-# Getting Started with Create React App
+# Tasks
+
+## Description
+Tasks is a Todo Application that is used to keep a record of tasks to be done.
+
+## Minimal Viable Product
+- A user is able to create a new account
+- A user is able to login to their account
+- A user is able to create a new task
+- A user is able to edit the task 
+- A user is able to delete a task once its done
+## Project Setup
+To access this project on you local computer, follow the steps below
+
+Open your terminal
+
+Clone this repository:
+
+Run <code>git clone (https://github.com/prince475/petflix)</code>
+Open Visual Studio Code:
+
+Run <code>code .</code>
+Click on the available files to view the codes used
+
+Installations:
+<code>npm install create-react-app@latest app-name</code> was used to install the latest version of react
+
+<code>npm install react-router-dom</code> was used for routing
+
+<code>npm install react-icons --save</code> was used for styling
+
+Access
+To access the content on the browser:
+
+click on this deployed link from vercel (https://petflix-chi.vercel.app/)
+
+or
+Run <code>npm install </code>on the terminal to install node module dependancies
+
+Run <code>npm start</code>on your terminal to start the backend json server to view it in your browser.
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -39,32 +81,8 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Authors
+This project was contributed to by: <a href="https://github.com/the-datageek">Faith Moraa</a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under ISC
