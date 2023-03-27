@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { EditTodoForm } from './EditTodoForm'
 uuidv4(); 
 
-export const TodoWrapper = () => {
+export function TodoWrapper(){
   const [todos, setTodos] = useState([])
 
   const addTodo = todo => {
@@ -30,10 +30,11 @@ export const TodoWrapper = () => {
   
   return (
     <div className='TodoWrapper'>
-        <h1>Get Things Done!</h1>
+        <h1>My Todo App</h1>
         <TodoForm addTodo={addTodo} />
         {/* display todos */}
-         {todos.map((todo, index) => (
+        <div>
+        {todos.map((todo, index) => (
           todo.isEditing ? (
             <EditTodoForm editTodo={editTask} task={todo} />
           ) : (
@@ -41,6 +42,9 @@ export const TodoWrapper = () => {
           )
            
          ))}
+
+        </div>
+     
     </div>
   )
 }

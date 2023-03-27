@@ -1,0 +1,9 @@
+
+.logout-btn, #login {
+    background-color: #5f605d;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: -70rem;
+}

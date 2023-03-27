@@ -68,7 +68,7 @@ label{
     border: none;
     border-radius: 8px;
     transition: .2s ease-in;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .btn:hover{
