@@ -16,7 +16,7 @@ Open your terminal
 
 Clone this repository:
 
-Run <code>git clone (https://github.com/prince475/petflix)</code>
+Run <code>git clone (https://github.com/the-datageek/tasks)</code>
 Open Visual Studio Code:
 
 Run <code>code .</code>
@@ -32,7 +32,7 @@ Installations:
 Access
 To access the content on the browser:
 
-click on this deployed link from vercel (https://petflix-chi.vercel.app/)
+click on this deployed link from vercel ()
 
 or
 Run <code>npm install </code>on the terminal to install node module dependancies
